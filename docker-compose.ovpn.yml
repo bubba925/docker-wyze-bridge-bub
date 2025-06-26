@@ -9,7 +9,7 @@ services:
       - 8888:8888 # HLS
       - 8889:8889 #WebRTC
       - 8189:8189/udp # WebRTC/ICE
-      - 5000:5000 # WEB-UI
+      - 5009:5009 # WEB-UI
     dns: [8.8.8.8]
     cap_add: [NET_ADMIN]
     command: '-f /vpn/config.ovpn'
