@@ -20,7 +20,7 @@ ports:
   8888/tcp: 8888
   8189/udp: 8189
   8889/tcp: 8889
-  5000/tcp: 5000
+  5000/tcp: 5009
 ports_description:
   1935/tcp: RTMP streams
   8554/tcp: RTSP streams
